@@ -1,0 +1,14 @@
+vpc_cidr = "125.181.0.0/21"
+tag1 = "batch2-tf-vpc-011125"
+vpc_public_cidr = "125.181.0.0/24"
+vpc_private_cidr = "125.181.4.0/24"
+vpc_private_tag = "private-subnet"
+vpc_public_tag = "public-subnet"
+vpc_igw_tag = "batch2-tf-vpc-igw"
+ami_public_instance = "ami-0bdd88bd06d16ba03" # amazon linux os.
+i-type = "t3.micro"
+api-termn = "false"
+role = "ec2-role"
+key_public_instance = "my-1st-key-pair"
+key_private_instance = "my-private-key-pair"
+ami_private_instance = "ami-0ecb62995f68bb549" # ubuntu os.
